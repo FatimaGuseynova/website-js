@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+#google_translate_element{
+    display: none!important;
+}
+
+.skiptranslate{
+    display: none!important;
+}
+
+

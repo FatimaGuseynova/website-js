@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="fixed z-99 w-full bg-white h-[60px] py-1 ">
+        <nav class="flex justify-between w-[93%] items-start mx-auto pt-[15px]">
+            <div class="h-14 w-[30%] flex justify-center items-start">
+                <img class="w-17" src="images/ABB_Logo.png" alt="ABB_Logo">
+            </div>
+            <div class="text-black opacity-60 flex w-[33%] justify-between text-[15px]">
+                <div class="relative inline-block">
+                    <div id="google_translate_element" class="none"></div>
+
+                    <select class="appearance-none" id="language">
+                        <option class="text-[10px] font-light" value="az">AZ</option>
+                        <option class="text-[10px] font-light" value="en">EN</option>
+                        <option class="text-[10px] font-light" value="ru">RU</option>
+                    </select>
+                </div>
+                <div>
+                    <p><i class="fa-solid fa-phone"></i> 937</p>
+                </div>
+                <div>
+                    <p id="menuIcon"><i onclick="menud()" class="fa-solid fa-bars-staggered"></i></p>
+                    <p id="newIcon" class="hidden"><i onclick="menud()" class="fa-solid fa-xmark"></i></p>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="hamMenu" class=" z-1 hidden bg-white absolute top-[60px] w-full h-full">
+        <div class="w-[93%] mx-auto mt-6">
+            <a href="#"
+                class="py-2.5 block flex justify-center cursor-pointer items-center bg-blue-600 rounded-2xl !w-[100%] text-white"><i
+                    class="fa-solid fa-location-dot mr-2"></i> Xidmət şəbəkəsi</a>
+
+            <div class="text-black text-[18px] mt-3 rounded-[3%] w-full border-1 py-2 px-1 border-gray-300">
+                <i class="fa-solid fa-magnifying-glass opacity-60"></i> <input class="w-[70%] opacity-80" type="text"
+                    placeholder="Sizə necə kömək edə bilərik?">
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+    <!-- header -->
+
+    <!-- slider -->
+
+    <!-- cards -->
+
+
+    <!-- icons -->
+    <div class="bg-gray-100">
+        <div class="w-[93%] mx-auto">
+            <h2 class=" py-[25px] text-center text-black opacity-70 text-[17px]">Sürətli keçidlər</h2>
+            <div class=" pb-[100px] flex flex-wrap justify-between">
+                <div class="text-center group">
+                    <a href="#"><img class="w-[100px]" src="images/quick_action_4d2f54dca3.png" alt="icon"></a>
+                    <a class="group-hover:opacity-100 text-black text-[15px] opacity-70 " href="#">İpoteka krediti</a>
+                </div>
+                <div class="text-center group">
+                    <a href="#"><img class="w-[100px]" src="images/quick_action_cb64fc51ac.png" alt="icon"></a>
+                    <a class="group-hover:opacity-100 text-black text-[15px] opacity-70" href="#">Debet kartlar</a>
+                </div>
+                <div class="text-center group">
+                    <a href="#"><img class="w-[100px]" src="images/quick_action_de1924bd9a.png" alt="icon"></a>
+                    <a class="group-hover:opacity-100  text-black text-[15px] opacity-70" href="#">Kredit kartları</a>
+                </div>
+                <div class="text-center group">
+                    <a href="#"><img class="w-[100px]" src="images/quick_action_f917461d10.png" alt="icon"></a>
+                    <a class="group-hover:opacity-100 text-black text-[15px] opacity-70" href="#">Keşbek</a>
+                </div>
+                <div class="text-center group">
+                    <a href="#"><img class="w-[100px]" src="images/63_1_a8fb2ffbb8.png" alt="icon"></a>
+                    <a class="group-hover:opacity-100 text-black text-[15px] opacity-70" href="#">Filiallar və
+                        ATM-lər</a>
+                </div>
+                <div class="text-center group">
+                    <a href="#"><img class="w-[100px]" src="images/D_app_5_0eca73b01a.png" alt="icon"></a>
+                    <a class="group-hover:opacity-100 text-black text-[15px] opacity-70" href="#">İnvestisiya</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- tam card -->
+    <div>
+        <div class="bg-white w-full rounded-[50px] pt-[40px] absolute top-[39%]">
+            <div class="w-[93%] mx-auto">
+                <div class="flex items-center ">
+                    <img class="w-[50px] mr-[5px]" src="images/master_8ec815b00f.png" alt="card">
+                    <h2 class="text-[32px] mb-2 font-semibold">Tam DigiCard</h2>
+                </div>
+                <div>
+                    <h2 class="text-[32px] mb-2 font-semibold">Tam rəqəmsal, Tam real!</h2>
+                </div>
+                <div class="mb-[20px] flex items-center gap-4">
+                    <div>
+                        <h6 class=" mb-[5px] font-semibold">Pulsuz</h6>
+                        <p class="text-black opacity-75">Qiymət</p>
+                    </div>
+                    <div>
+                        <h6 class=" mb-[5px] font-semibold">10%-ə qədər</h6>
+                        <a href="#" class=" cursor-pointer text-blue-600">Faydalı keşbek</a>
+                    </div>
+                    <div>
+                        <h6 class="mb-[5px] font-semibold">*İllik 6% gəlir</h6>
+                        <p class="text-black opacity-75">Faiz dərəcəsi</p>
+                    </div>
+                </div>
+
+                <div>
+                    <a class="bg-blue-600 rounded-2xl font-semibold py-3 flex items-center justify-center text-white w-fit px-4"
+                        href="#">Sifariş edin</a>
+                    <p class="text-[14px] my-[15px] text-black opacity-50">*ABB mobile-da qeydiyyatdan keçmiş və kartını
+                        əlavə etmiş
+                        müştərilərə aiddir</p>
+                </div>
+                <div>
+                    <img src="images/image_204956752_845ec35044.png" alt="">
+                </div>
+
+                <!-- credit -->
+                <div class="w-[93%] mx-auto">
+                    <h2 class="text-[28px] text-center">Kredit limitinizi <span
+                            class="bg-gradient-to-r from-blue-600 via-#2d7ffa80 to-blue-200 bg-clip-text text-transparent">öyrənin</span>
+                    </h2>
+                    <p class="mt-[15px] text-center font-light text-[19px]">50 000 AZN-dək krediti tam onlayn əldə edin!
+                    </p>
+
+                    <input
+                        class="w-[70%] opacity-80 text-black text-[18px] mt-3 rounded-[10px] w-full border-1 py-2 px-1 border-gray-300"
+                        type="tel" placeholder="Mobil nömrə">
+                    <p
+                        class="w-[70%] flex items-center justify-between opacity-80 mt-[15px] text-black text-[18px] mt-3 rounded-[10px] w-full border-1 py-2 px-1 border-gray-300">
+                        <input type="text" placeholder="FIN kod"> <i onclick="more()"
+                            class="fa-solid fa-circle-info relative"></i>
+                    </p>
+                    <div class="hidden border-1 mt-[7px] right-[6%] shadow-2xs rounded-[15px] border-gray-500 p-4 absolute">
+                        <img class="w-[200px]" src="images/new-FIN.52c724b6.png" alt="passport">
+                        <p class="text-[17px] mt-[6px] mb-[15px]">Yeni nəsil şəxsiyyət vəsiqəsinin <br>FİN kodu</p>
+                        <img class="w-[200px]" src="images/old-FIN.66ae32d9.png" alt="passport">
+                        <p class="text-[17px] mt-[6px]">Köhnə şəxsiyyət vəsiqəsinin<br> FİN kodu</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                { pageLanguage: 'en' },
+                'google_translate_element'
+            );
+        }
+    </script>
+
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
