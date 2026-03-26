@@ -12,6 +12,9 @@
 
 <body>
 
+<!-- slider -->
+ 
+
 
     <div class="fixed z-99 w-full bg-white h-[60px] py-1 ">
         <nav class="flex justify-between w-[93%] items-start mx-auto pt-[15px]">
@@ -99,7 +102,7 @@
 
     <!-- tam card -->
     <div>
-        <div class="bg-white w-full rounded-[50px] pt-[40px] absolute top-[39%]">
+        <div class="bg-white w-full rounded-t-[50px] pt-[40px] absolute top-[39%]">
             <div class="w-[93%] mx-auto">
                 <div class="flex items-center ">
                     <img class="w-[50px] mr-[5px]" src="images/master_8ec815b00f.png" alt="card">
@@ -135,7 +138,7 @@
                 </div>
 
                 <!-- credit -->
-                <div class="w-[93%] mx-auto">
+                <div class="w-[93%] mx-auto pb-[20px]">
                     <h2 class="text-[28px] text-center">Kredit limitinizi <span
                             class="bg-gradient-to-r from-blue-600 via-#2d7ffa80 to-blue-200 bg-clip-text text-transparent">öyrənin</span>
                     </h2>
@@ -143,25 +146,47 @@
                     </p>
 
                     <input
-                        class="w-[70%] opacity-80 text-black text-[18px] mt-3 rounded-[10px] w-full border-1 py-2 px-1 border-gray-300"
+                        class="w-[70%] outline-0 opacity-80 text-black text-[18px] mt-3 rounded-[10px] w-full border-1 py-2 px-1 border-gray-300"
                         type="tel" placeholder="Mobil nömrə">
                     <p
-                        class="w-[70%] flex items-center justify-between opacity-80 mt-[15px] text-black text-[18px] mt-3 rounded-[10px] w-full border-1 py-2 px-1 border-gray-300">
-                        <input type="text" placeholder="FIN kod"> <i onclick="more()"
+                        class="w-[70%] flex items-center justify-between outline-0 opacity-80 mt-[15px] text-black text-[18px] mt-3 rounded-[10px] w-full border-1 py-2 px-1 border-gray-300">
+                        <input class="outline-0" type="text" placeholder="FIN kod"> <i onclick="passp()"
                             class="fa-solid fa-circle-info relative"></i>
                     </p>
-                    <div class="hidden border-1 mt-[7px] right-[6%] shadow-2xs rounded-[15px] border-gray-500 p-4 absolute">
+                    <div id="passport"
+                        class="hidden bg-white z-20 border-1 mt-[7px] right-[6%] shadow-2xs rounded-[15px] border-gray-500 p-4 absolute">
                         <img class="w-[200px]" src="images/new-FIN.52c724b6.png" alt="passport">
                         <p class="text-[17px] mt-[6px] mb-[15px]">Yeni nəsil şəxsiyyət vəsiqəsinin <br>FİN kodu</p>
                         <img class="w-[200px]" src="images/old-FIN.66ae32d9.png" alt="passport">
                         <p class="text-[17px] mt-[6px]">Köhnə şəxsiyyət vəsiqəsinin<br> FİN kodu</p>
                     </div>
+                    <div class="flex my-1.5">
+                        <div onclick="agree()" id="agreement"
+                            class="text-amber-50 mr-2 my-1 border-2 flex justify-center items-center w-fit h-[23px] border-gray-300 rounded-[6px] ">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                        <span class="inline opacity-45 text-[13px]">
+                            “Davam et” düyməsinə klikləməklə Azərbaycan Kredit Bürosu və ASAN Finans vasitəsilə
+                            məlumatlarımın ABB-yə təqdim edilməsinə razılıq verirəm.</span>
+                    </div>
+                    <button class="bg-gray-300 w-[100%] text-gray-500 py-2 my-3 rounded-[5px] flex justify-center items-center" id="confirm">Davam et</button>
                 </div>
             </div>
         </div>
     </div>
 
+<!-- registration -->
 
+<div class="rounded-t-[50px] bg-[#2e323a] absolute py-[20px] w-[93%] mx-auto w-full top-[150%]">
+    <div class="text-center">
+        <h2 class="text-white text-[30px] font-semibold">Gələcəyinizi <span class="bg-gradient-to-r from-blue-600 via-#2d7ffa80 to-blue-200 bg-clip-text text-transparent">ABB </span>ilə qurun!</h2>
+        <p class="text-gray-200 my-[15px]">Maraqlı fürsətləri araşdırın, karyeranızı inkişaf etdirin və təsir göstərin. Bu gün ABB Karyera Platformasında yenilikçi komandamıza qoşulun!</p>
+        <button class="w-fit bg-white my-[10px] py-[9px] px-[14px] text-black rounded-[10px] font-semibold">Bizə qatılın</button>
+    </div>
+    <div>
+        <img src="images/sayt_183b93695e.png" alt="workers">
+    </div>
+</div>
 
 
 

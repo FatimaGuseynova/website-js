@@ -34,3 +34,39 @@ function menud() {
 
 }
 
+// passport
+
+let passport = document.getElementById("passport")
+
+function passp(){
+    if (passport.style.display == "block"){
+        passport.style.display = "none"
+    }
+    else{
+        passport.style.display = "block"
+    }
+}
+
+// agreement
+
+let agreement = document.getElementById("agreement")
+let confirm = document.getElementById("confirm")
+
+function agree(){
+    if (agreement.style.backgroundColor === "rgb(37, 99, 235)"){
+        agreement.style.backgroundColor = "white"
+        agreement.style.borderColor = "#d1d5db"
+        confirm.style.backgroundColor = "#d1d5db"
+        confirm.style.color = "gray"
+    }
+    else{
+        agreement.style.backgroundColor = "rgb(37, 99, 235)"
+        agreement.style.borderColor = "rgb(37, 99, 235)"
+        confirm.style.backgroundColor = "rgb(37, 99, 235)"
+        confirm.style.color = "white"
+    }
+}
+
+
+
+
